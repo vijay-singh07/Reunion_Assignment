@@ -7,7 +7,7 @@ const Header = () => {
       <header className='py-6 mb-12 border-b'>
         <div className='container ml-0 flex justify-between item-center '>
           <Link to='/'>
-            <img src={Logo} alt='Logo' className='px-3 py-3' />
+            <img src={Logo} alt='Logo' className='px-3 ' />
           </Link>
           <Link to='/' className='hover:text-violet-900 hover:bg-violet-200 px-3 py-3 transition'>Rent</Link>
           <Link to='/' className='hover:text-violet-900 hover:bg-violet-200 px-3 py-3 transition'>Buy</Link>
