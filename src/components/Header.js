@@ -13,7 +13,7 @@ const Header = () => {
       <header className='py-6 mb-12 border-b rounded border-b-5 border-solid border-gray-300'>
       <div className='flex lg:justify-between justify-start'>
         <div className='container ml-0 flex justify-start item-center gap-2 lg:w-full w-fit'>
-          <Link to='/' onClick={handleClick}>
+          <Link to='/'>
             <img src={Logo} alt='Logo' className='px-3 ' />
           </Link>
           <Link to='/' onClick={handleClick} className='hidden lg:flex hover:text-violet-900 hover:bg-violet-200 px-3 py-3 transition'>Rent</Link>
