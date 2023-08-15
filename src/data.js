@@ -72,7 +72,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '140000',
+    price: '40000',
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
@@ -93,7 +93,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '170000',
+    price: '70000',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -135,7 +135,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2015',
-    price: '210000',
+    price: '10000',
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
@@ -177,7 +177,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2012',
-    price: '20000',
+    price: '40000',
     agent: {
       image: Agent7,
       name: 'Jawhar Shamil Naser',
@@ -198,7 +198,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2011',
-    price: '30000',
+    price: '130000',
     agent: {
       image: Agent8,
       name: 'Juana Douglass',
@@ -261,7 +261,7 @@ export const housesData = [
     bathrooms: '2',
     surface: '2200 sq ft',
     year: '2019',
-    price: '145000',
+    price: '55000',
     agent: {
       image: Agent11,
       name: 'Sofia Gomes',
@@ -282,7 +282,7 @@ export const housesData = [
     bathrooms: '4',
     surface: '4600 sq ft',
     year: '2015',
-    price: '139000',
+    price: '69000',
     agent: {
       image: Agent12,
       name: 'Raymond Hood',
@@ -324,7 +324,7 @@ export const housesData = [
     bathrooms: '2',
     surface: '3200 sq ft',
     year: '2011',
-    price: '213000',
+    price: '43000',
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
@@ -345,7 +345,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '5200 sq ft',
     year: '2013',
-    price: '221000',
+    price: '48000',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -387,7 +387,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2012',
-    price: '32000',
+    price: '86000',
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
