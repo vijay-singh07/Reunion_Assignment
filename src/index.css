@@ -16,7 +16,7 @@
     @apply text-2xl mr-[18px] text-violet-700;
   }
   .dropdown-icon-header {
-    @apply text-2xl mr-[18px] text-black;
+    @apply text-2xl pl-1 text-black;
   }
   .dropdown-icon-secondary {
     @apply text-2xl text-violet-700 ml-auto;
