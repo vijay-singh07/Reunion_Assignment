@@ -19,7 +19,6 @@ const HouseContextProvider = ({children}) => {
     });
     // remove duplicates
     const uniqueCountries = [...new Set(allCountries)]
-    console.log(uniqueCountries);
 
     setCountries(uniqueCountries);
   },[]);
@@ -30,7 +29,6 @@ const HouseContextProvider = ({children}) => {
     });
     // remove duplicates
     const uniqueProperties = [ ...new Set(allProperties)]
-    console.log(uniqueProperties);
 
     setProperties(uniqueProperties);
   },[]);

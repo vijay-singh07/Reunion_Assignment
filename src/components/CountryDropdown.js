@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import {RiMapPinLine} from 'react-icons/ri';
 import {Menu} from '@headlessui/react';
 import {useState} from 'react';
-import {HOuseContext, HouseContext} from './HouseContext'
+import {HouseContext} from './HouseContext'
 
 const CountryDropdown = () => {
   const {country, setCountry, countries} = useContext(HouseContext);
