@@ -92,9 +92,6 @@ const HouseContextProvider = ({children}) => {
       if (isDefault(country)&& isDefault(property)&& !isDefault(price)&& !isDefault(date)){
         return housePrice >=minPrice && housePrice <=maxPrice && houseDate >= minDate && houseDate <= maxDate;
       }
-      else {
-        return ;
-      }
     });
     setTimeout(()=>{
       return newHouses.length < 1 ? setHouses([]): 
@@ -116,7 +113,6 @@ const HouseContextProvider = ({children}) => {
   houses,
   loading,
   handleClick,
-  loading,
   }}>
     {children}
   </HouseContext.Provider>);
