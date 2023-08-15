@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import {RiWallet3Line, RiArrowDownSLine, RiArrowUpSLine} from 'react-icons/ri';
+import {RiWallet3Line} from 'react-icons/ri';
 import {Menu} from '@headlessui/react';
 import {useState} from 'react';
 import { HouseContext} from './HouseContext'
@@ -10,20 +10,13 @@ const PropertyDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-  <Menu as='div' className='dropdown relative'>
+  <Menu as='div' className='dropdown relative mb-2 lg:mb-0'>
   <Menu.Button onClick={()=> setIsOpen(!isOpen)} className='dropdown-btn w-full text-left'>
     <RiWallet3Line className='dropdown-icon-primary'/>
       <div>
         <div className='text-[13px] text-grey'>Property type</div>
         <div className='text-[15px] font-medium leading-tight'>{property}</div>
       </div>
-      {
-        isOpen ? (
-          <RiArrowUpSLine className='dropdown-icon-primary'/>
-        ):(
-          <RiArrowDownSLine className='dropdown-icon-primary'/>
-        )
-      }
   </Menu.Button>
   <Menu.Items className='dropdown-menu'>
     {properties.map((property, index)=>

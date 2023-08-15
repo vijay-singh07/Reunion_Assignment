@@ -1,29 +1,22 @@
 import React, { useContext } from 'react';
-import {RiMapPinLine, RiArrowDownSLine, RiArrowUpSLine} from 'react-icons/ri';
+import {RiMapPinLine} from 'react-icons/ri';
 import {Menu} from '@headlessui/react';
 import {useState} from 'react';
 import {HOuseContext, HouseContext} from './HouseContext'
 
 const CountryDropdown = () => {
   const {country, setCountry, countries} = useContext(HouseContext);
-  console.log(countries);
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-  <Menu as='div' className='dropdown relative'>
+  <Menu as='div' className='dropdown relative mb-2 lg:mb-0'>
   <Menu.Button onClick={()=> setIsOpen(!isOpen)} className='dropdown-btn w-full text-left'>
     <RiMapPinLine className='dropdown-icon-primary'/>
       <div>
         <div className='text-[13px] text-grey'>Location</div>
         <div className='text-[15px] font-medium leading-tight'>{country}</div>
       </div>
-      {
-        isOpen ? (
-          <RiArrowUpSLine className='dropdown-icon-primary'/>
-        ):(
-          <RiArrowDownSLine className='dropdown-icon-primary'/>
-        )
-      }
+      
   </Menu.Button>
   <Menu.Items className='dropdown-menu'>
     {countries.map((country, index)=>
